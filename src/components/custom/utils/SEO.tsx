@@ -43,10 +43,12 @@ export default SEO
 // Default SEO for each page
 const defaultSEO = {
 	keywords: [
-		'barthez kenwou',
-		"website"
+		'queue management app nowait',
+		"queue",
+		"nowait",
+		"management"
 	],
-	image: '/images/preview-image.png',
+	image: '',
 	url: typeof window !== 'undefined' ? window.location.href : '',
 	type: 'website',
 };    

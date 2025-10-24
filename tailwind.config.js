@@ -4,6 +4,21 @@ export default {
   darkMode: ['class'],
   content: ['./index.html', './src/**/*.{ts,tsx,js,jsx}'],
   theme: {
+	letterSpacing: {
+
+       tightest: '-.075em',
+        tighter: '-.05em',
+
+       tight: '-.025em',
+        normal: '0',
+
+       wide: '.1rem',
+        wider: '.2rem',
+
+       widest: '.1em',
+
+       widest: '.25em',
+      },
   	container: {
   		center: true,
   		padding: {
@@ -23,6 +38,8 @@ export default {
   		colors: {
   			background: 'hsl(var(--background))',
   			foreground: 'hsl(var(--foreground))',
+			primary : "#003EFF",
+			secondary:"#00C853",
   			footer: {
   				DEFAULT: 'hsl(var(--footer))',
   				foreground: 'hsl(var(--footer-foreground))'
@@ -34,14 +51,6 @@ export default {
   			popover: {
   				DEFAULT: 'hsl(var(--popover))',
   				foreground: 'hsl(var(--popover-foreground))'
-  			},
-  			primary: {
-  				DEFAULT: 'hsl(var(--primary))',
-  				foreground: 'hsl(var(--primary-foreground))'
-  			},
-  			secondary: {
-  				DEFAULT: 'hsl(var(--secondary))',
-  				foreground: 'hsl(var(--secondary-foreground))'
   			},
   			muted: {
   				DEFAULT: 'hsl(var(--muted))',
