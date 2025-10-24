@@ -1,5 +1,4 @@
-import { ReactNode } from 'react';
-
+import  type { Ibegin } from '@/interface/interface.tsx';
 
 export const BeginSection = () => {
   return (
@@ -15,11 +14,7 @@ export const BeginSection = () => {
       )
 }
 
-interface  Ibegin{
-  title:string
-  description:string
-  icon?:ReactNode
-}
+
 
 export const Begin = (props:Ibegin) =>{
   return(

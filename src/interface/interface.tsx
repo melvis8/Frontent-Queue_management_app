@@ -54,3 +54,13 @@ export interface ICTA extends React.ButtonHTMLAttributes<HTMLButtonElement> {
   url: string
 }
 
+export interface  Ibegin{
+  title:string
+  description:string
+  icon?:ReactNode
+}
+
+export interface Ifunctionalty{
+  title: string
+  description:string
+}
