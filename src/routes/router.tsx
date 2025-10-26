@@ -75,6 +75,14 @@ const Router = createBrowserRouter([
             <DynamicPageLoader pageKey="admin/AdminDashboard" />
           
         )
+      },
+      {
+        path: 'signup',
+        element: (
+
+          <DynamicPageLoader pageKey="admin/AdminSignupForm" />
+
+        )
       }
     ]
   },
